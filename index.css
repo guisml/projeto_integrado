@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto Mono', 'sans-serif';
+}
+
+body {
+    background-color: #084F8C;
+}
+
+figure{
+    width: 50px;
+    margin-left: 50px;
+}
+
+#cabecalho {
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#fortes {
+    height: 40px;
+}
+
+.icones_esquerda {
+    height: 30px;
+    width: 30px;
+    margin: 15px;
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center;
+}
+
+header h1 {
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 130px;
+}
+
+.icones_direita {
+    height: 30px;
+    width: 30px;
+    margin: 15px;
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center; 
+}
+
+#rodape {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 10px;
+}
+
+.ir {
+    display: flex;
+    align-items: center;
+}
+
+.icones_rodape {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.ir p {
+    margin-right: 40px;
+    font-size: 16px;
+}
+
+.icones_topo {
+    height: 40px;
+    width: 40px;
+    margin: 15px;
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center; 
+}
+
+.imgss img:first-child {
+    float: left;
+}
+  
+.imgss img:last-child {
+    float: right;
+    
+}
+
+
+
+#seus-pontos {
+    color: rgb(255, 255, 255);
+    background-color: #084F8C;
+    padding: 10px;
+    margin-top: 12px;
+    text-align: center;
+    align-items: center;
+}
+
+#lorem{
+    color: white;
+    word-wrap: break-word;
+    text-align: justify;
+    margin: 190px auto 0;
+    max-width: 400px;
+    align-self: center;
+}
+
+.imgss {
+    margin-top: -20px; 
+}
+
+.container_topo img {
+    height: 200px; /* Defina a altura desejada para a imagem */
+    max-width: 100%;
+    
+    
+}
+
+.image-wrapper {
+    margin-top: -220px;
+    margin-left: 700px;
+    max-width: 100%;
+
+}
+
+h3{
+    color: white;
+    font-size: 27px;
+    
+}
+
+.green-button {
+    background-color: #04BF7B;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-top: 60px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
